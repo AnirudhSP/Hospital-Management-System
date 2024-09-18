@@ -1,0 +1,74 @@
+/* PATIENT PAGE CSS */
+
+/*Header */
+
+.header{
+	display: inline;
+	overflow: hidden;
+	padding: 20px 10px;	
+}
+
+.header .navigation a {
+  float: right;
+  color: #283291;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  margin-left: 20px;
+ 
+}
+
+
+.header .navigation a:hover {
+  color: #21d34b;
+}
+  
+img.logo {
+	display : inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top:5px;
+	
+ }	 
+ 
+ 
+ h2.title {
+	text-decoration: none;
+	display : inline;
+	position :relative;
+	float: top;
+	margin-left: 13px;
+	margin-right: auto;
+	margin-top:15px;
+	z-index: 10; 
+	font-family: 'Roboto', sans-serif;
+	
+ }
+
+ h2.title a{
+	 text-decoration: none;
+	 color: black;
+ }
+ 
+ /*Header*/
+ .title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+.title1{
+  position: absolute;
+  left: 40px;
+  top: 200px;  
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+

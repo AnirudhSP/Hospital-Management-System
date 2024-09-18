@@ -1,0 +1,473 @@
+/*E - CHANNELING CSS */
+
+/*Header */
+
+.header{
+	display: inline;
+	overflow: hidden;
+	padding: 20px 10px;	
+}
+
+.header .navigation a {
+  float: right;
+  color: #283291;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  margin-left: 20px;
+ 
+}
+
+
+.header .navigation a:hover {
+  color: #21d34b;
+}
+  
+img.logo {
+	display : inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top:5px;
+	
+ }	 
+ 
+ 
+ h2.title {
+	text-decoration: none;
+	display : inline;
+	position :relative;
+	float: top;
+	margin-left: 13px;
+	margin-right: auto;
+	margin-top:15px;
+	z-index: 10; 
+	font-family: 'Roboto', sans-serif;
+	
+ }
+
+ h2.title a{
+	 text-decoration: none;
+	 color: black;
+ }
+ 
+ /*Header*/
+ 
+
+ 
+.body{
+    background-color : #FFFFFF;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+/****form****/
+
+input[type=text],[type=number], select {
+    width: 500px;
+    height: 30px;
+    font-size: 18px;
+}
+
+input [type=date]{
+    height: 30px;
+    font-size: 18px;
+}
+
+/* fill details box */
+
+.filldetailsbox{
+    height: 400px;
+    width: 99%;
+    border: solid black;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-size: 18px; 
+    background-color :#f2f2f2;
+}
+
+.title1{
+    position: absolute;
+    left: 40px;
+    top: 30px;  
+    font-weight: bold;
+}
+
+.doc{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 1070px;
+    top:55px;
+
+}
+
+/*** datails box lables **/
+
+.txtlables1{
+    position: relative;
+    left: 90px;
+}
+
+.nametxt{
+    position: absolute;
+    top: 100px;
+}
+
+.pntxt{
+    position: absolute;
+    top: 150px;
+}
+
+.spectxt{
+    position: absolute;
+    top: 200px;
+}
+
+.doctxt{
+    position: absolute;
+    top: 250px;
+}
+
+.datetxt{
+    position: absolute;
+    top: 300px;
+}
+
+
+/** buttons **/
+.searchbtn {
+    width: 150px;
+    height: 50px;
+	position : absolute;
+	top: 320px;
+    left : 800px;
+    background-color:#283291 ;
+	
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	font-family : 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+
+.clearbtn1 {
+    width: 150px;
+    height: 50px;
+	position : absolute;
+	top: 320px;
+    left : 630px;
+    background-color:#283291 ;
+	
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	font-family : 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.searchbtn:hover {
+	background-color:#21d34b;
+	color: white;
+}
+.clearbtn1:hover {
+	background-color:red;
+	color: white;
+}
+ 
+ 
+	
+
+/** details box inputs **/
+
+.inputs{
+    position: relative;
+    left: 450px;
+    font-size: 18px;
+}
+
+.nameinput{
+    position: absolute;
+    top: 100px;
+}
+
+.pninput{
+    position: absolute;
+    top: 150px;
+}
+
+.specinput{
+    position: absolute;
+    top: 200px;
+}
+
+.docinput{
+    position: absolute;
+    top: 250px;
+}
+
+.dateinput{
+    position: absolute;
+    top: 300px;
+}
+
+/*** payment method box ***/
+
+
+.paymentbox{
+height: 725px;
+width: 99%;
+border: solid black;
+font-family: 'Roboto', sans-serif;
+position: relative;
+font-size: 18px; 
+background-color :#f2f2f2;
+margin-top: 20px;
+}
+
+.title2{
+    position: absolute;
+    left: 40px;
+    top: 30px;  
+    font-weight: bold;
+}
+
+/** inputs**/
+
+.payoptxt{
+    position: absolute;
+    left:90px ;
+    top: 100px;
+}
+
+.radio1{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+.radio2 img{
+    height:40px;
+    width: auto;
+}
+
+.radio2{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+.carddetailsbox{
+height: 330px;
+width: 98%;
+border: solid black;
+font-family: 'Roboto', sans-serif;
+position: absolute;
+font-size: 18px; 
+background-color :#f2f2f2;
+top:300px;
+left: 10px;
+}
+
+.title3{
+    position: absolute;
+    left: 40px;
+    top: 30px;  
+    font-weight: bold;
+}
+
+/** card details lables **/
+
+.txtlables2{
+    position: relative;
+    left: 90px;
+}
+
+.nameoncard{
+    position: absolute;
+    top: 100px;
+}
+
+.cardnum{
+    position: absolute;
+    top: 150px;
+}
+
+.expdate{
+    position: absolute;
+    top:200px;
+}
+
+.seccode{
+    position: absolute;
+    top:250px;
+}
+
+
+/** card details inputs **/
+
+.inputs2{
+    position: relative;
+    left: 450px;
+    font-size: 18px;
+}
+
+.nameoncardinput{
+    position: absolute;
+    top: 100px;
+}
+
+.cardnuminput{
+    position: absolute;
+    top: 150px;
+}
+
+
+.month{
+    position: absolute;
+    top: 200px;
+}
+
+
+
+.seccodeinput{
+    position: absolute;
+    top: 250px;
+}
+
+/** pay & channel button **/
+
+.paynchannel {
+    width: 200px;
+    height: 50px;
+	position : absolute;
+	top: 650px;
+    left : 760px;
+    background-color:#283291 ;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	font-family : 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.paynchannel:hover {
+	background-color:#21d34b;
+	color: white;
+}
+
+.clearbtn2 {
+    width: 150px;
+    height: 50px;
+	position : absolute;
+	top: 650px;
+    left : 590px;
+    background-color:#283291 ;
+	
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	font-family : 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.clearbtn2:hover {
+	background-color:red;
+	color: white;
+}
+
+
+/***************** footer ****************/
+
+
+.footer {
+    background-color:#000044;
+    font-family : 'Roboto', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color:#9b9b9b
+    }
+    
+    .follow{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    
+    .getthe{
+        position: absolute;
+        top: 20px;
+        left: 400px;
+    }
+    
+    
+    .copy{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    
+    
+    .fb,.insta,.twitter{
+        height :40px;
+        width : 40px;
+        position: absolute;
+    
+    }
+    
+    .fb{
+        top: 50px;
+        left: 20px;
+    }
+
+    
+    .insta{
+        top: 50px;
+        left: 70px;
+    }
+    
+    .twitter{
+        top: 50px;
+        left:120px;
+    }
+    
+    .android, .ios{
+        position: absolute;
+        height: 40px;
+        width: auto;
+    }
+    
+    .android {
+        top: 50px;
+        left: 400px;
+    }
+    
+    .ios{
+        top: 50px;
+        left: 550px;
+    }

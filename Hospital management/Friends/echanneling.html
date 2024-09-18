@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Channeling</title>
+    <link rel="stylesheet" type="text/css" href="styles/theme2.css">
+    <script type="text/javascript"  src="js/javascript.js"></script>
+</head>
+
+
+<body>
+<!--header-->
+ 
+<div class="header">
+	<a href="index.html">
+	<img class="logo"  src="images/logo.png" alt="Serendib Hospitals" height="80"  width ="80">
+	</a>
+	<div class="navigation">
+		<a href="#contact">ACCOUNT</a>
+		<a href="#about">ABOUT US</a>
+		<a href="#about">CONTACT US</a>
+		<a href="#about">LOGIN</a>
+		<a href="#about">REGISTER</a>
+		<a href="index.html">HOME</a>
+	</div>
+	
+	<h2 class="title"><a href='index.html'>FRIENDS <br>&nbsp HOSPITALS </h2> </a>
+	
+</div>
+<!-- header--> 
+
+
+
+<div class="title">         
+     <h1>E - Channeling Service</h1>
+</div>
+
+<!-- fill details box -->
+
+<div class="filldetailsbox">
+    <div class="title1">Fill Details</div>
+    <div class="txtlables1">
+        <div class="nametxt">Your Name : </div>
+        <div class="pntxt">Your Phone Number : </div>
+        <div class="spectxt">Specialization : </div>
+        <div class="doctxt">Doctor Name : </div>
+        <div class="datetxt">Date : </div>
+    </div>
+    <div class="inputs">
+        <div class="nameinput">
+            <input type="text" id="pname" name="pname">
+        </div>
+        <div class="pninput">
+            <input type="number" id="phone" name="phone">
+        </div>
+        <div class="specinput">
+            <select id="specinput">
+                <option value="1" >Any</option>
+                <option value="2">Ayurveda</option>
+                <option value="3">Cardiologist</option>
+                <option value="4">Psychologist</option>
+                <option value="5">Neorologist</option>
+            </select>
+        </div>
+        <div class="docinput">
+            <select id="docinput">
+                <option value="1" >Dr. Rohit Sharma</option>
+                <option value="2">Dr. Shubhman Gill</option>
+                <option value="3">Dr. Virat Kohli</option>
+                <option value="4">Dr. Jasprith Bumrah</option>
+                <option value="5">Dr. KL Rahul</option>
+            </select>
+        </div>
+        <div class="dateinput">
+            <input type="date" id="date" name="date"> 
+        </div>
+
+    </div>
+
+        <button class="searchbtn">Search</button>
+        <button class="clearbtn1" onclick="clr()">Clear</button>
+        <img src="images/doc.png" alt="E - Channeling" class="doc">
+
+</div>
+
+
+<!--payment method box-->
+
+<!--card select box-->
+<div class="paymentbox">
+    <div class="title2">Add Payment Method</div>
+    <div class="payoptxt">Choose your payment option : </div>
+    <div class="radio1">
+        <input type="radio" id="credit" name="credit" value="credit">
+        <label for ="credit">Credit</label>
+        <input type="radio" id="debit" name="debit" value="debit">
+        <label for ="debit">Debit</label>
+    </div>
+
+
+    <div class="radio2">
+        <input type="radio" id="visa" name="visa" value="visa">
+        <label for="visa"> <img src="images/visa.png"> </label> 
+        <input type="radio" id="master" name="master" value="master">
+        <label for="master"> <img src="images/mastercard.png"> </label>
+        <input type="radio" id="american" name="american" value="american">
+        <label for="american"> <img src="images/american.png"> </label>
+        <input type="radio" id="discover" name="discover" value="discover">
+        <label for="discover"> <img src="images/discover.png"> </label>
+    </div>
+
+
+
+  <!--card details box-->
+    <div class="carddetailsbox">
+        <div class="title3">Give your card details</div>
+        <div class="txtlables2">
+            <div class="nameoncard">Name on card : </div>
+            <div class="cardnum">Card Number : </div>
+            <div class="expdate">Expiration Date : </div>
+            <div class="seccode">Security Code : </div>
+        </div>
+
+        <div class="inputs2">
+                <div class="nameoncardinput">
+                    <input type="text" id="nameoncard" name="nameoncard">
+                </div>
+                <div class="cardnuminput">
+                    <input type="number" id="cardnum" name="cardnum">
+                </div>
+                <div class="month">
+                    <input type="month" id="month" name="month">
+                </div>
+                <div class="seccodeinput">
+                    <input type="number" id="seccode" name="seccode">
+                </div>
+        </div>
+
+    </div>
+
+    <button class="clearbtn2" onclick="clr2()">Clear</button>
+    <button class="paynchannel">Pay & Channel</button>
+
+
+</div>
+
+
+<!-- footer -->
+
+<div class="footer">
+	<div class= "follow">Follow us on </div>
+	<div class="getthe">Get the app </div>
+	<div class="copy">Copyright &copy; Serendib Hospitals PLC <br> 253f, <br>Udaya Mawatha,<br> Malabe. </div>
+
+	<div class="socialbuttons">
+		<a href="https://www.facebook.com"><img src="images/fb.png" alt="facebook" class="fb"></a>
+		<a href="https://www.instagram.com"><img src="images/insta.webp" alt="instagram" class="insta"></a>
+		<a href="https://www.twitter.com"><img src="images/twitter.png" alt="twitter" class="twitter"></a>
+		<a href="https://www.play.google.com"><img src="images/android.png" alt="play store" class="android"></a>
+		<a href="https://www.apple.com/ios/app-store/"><img src="images/ios.png" alt="app store" class="ios" ></a>
+	</div>
+
+
+</div>
+
+
+</body>
+
+
+
+</html>
